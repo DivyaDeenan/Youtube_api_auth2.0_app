@@ -1,5 +1,5 @@
 // Options
-const CLIENT_ID = 'Y110211615021-hmq59km4g6mo0n89s3957cb8mrjpmlt1.apps.googleusercontent.com';
+const CLIENT_ID = 'your-client-id';
 const DISCOVERY_DOCS = [
   'https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'
 ];
@@ -32,7 +32,7 @@ function handleClientLoad() {
 function initClient() {
   gapi.client
     .init({
-      apiKey: 'YAIzaSyDD3Wj-tBhfYlTo9EfdTHjJkEYL82DE7G4',
+      apiKey: 'your-api-key',
       discoveryDocs: DISCOVERY_DOCS,
       clientId: CLIENT_ID,
       scope: SCOPES
